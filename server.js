@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Import routes
-const apiRoutes = require('./routes/api');
+const apiRoutes = require('./api');
 
 // Use the routes for '/api' endpoint
 app.use('/api', apiRoutes);
