@@ -11,6 +11,8 @@ let items = [
 // Helper function for finding item by ID
 const findItemById = (id) => items.find(i => i.id === parseInt(id));
 
+
+
 // GET: Retrieve all items
 router.get('/items', (req, res) => {
   try {
